@@ -2,6 +2,12 @@
 调用企业微信机器人发送消息至群里的命令行工具
 
 # Usage
+首先设置环境变量，指定企业微信机器人的key(即创建机器人后，生成的链接中send?key= 后的内容)
+
+```Bash
+export BOT_KEY="YOUR_KEY"
+```
+
 ```Bash
 $./wxworkbot -h
 
